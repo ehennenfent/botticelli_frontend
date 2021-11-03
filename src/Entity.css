@@ -1,0 +1,72 @@
+.EntityCard{
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EntityNavigationCard{
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+  padding: 1%;
+
+  background: #F5F5F5;
+}
+
+
+.Row {
+  display: flex;
+  padding: 0.5%;
+}
+
+.EntityTagRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.EntityColumnLeft {
+  width: 60%;
+}
+
+.EntityColumnRight {
+  width: 40%;
+  max-width: 40%;
+  justify-content: center;
+}
+
+.ColumnThird {
+  width: 33%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.EntityImage {
+  max-width: 100%;
+  object-fit: scale-down;
+}
+
+.EntityTag{
+  margin: 2px;
+  padding: 6px;
+  background: #E0E0E0;
+
+}
+
+.EntityFactUL{
+  padding-left: 28px;
+  padding-bottom: 16px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.EntityFact{}
+
+.centered {
+  text-align: center;
+}
